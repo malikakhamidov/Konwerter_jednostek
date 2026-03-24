@@ -11,7 +11,7 @@ Konwerter jednostek to prosta aplikacja umożliwiająca przeliczanie podstawowyc
 Program umożliwia konwersję jednostek:
 - wagi (kilogram, gram, miligram, tona, funt)
 - długości (kilometr, metr, centymetr, mila, stopa)
-- konwersję temperatury (Celsjusz, Fahrenheit, Kelvin)
+- temperatury (Celsjusz, Fahrenheit, Kelvin)
 
 **Jak uruchomić program**
 1. Pobierz pliki projektu
