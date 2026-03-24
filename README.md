@@ -9,7 +9,7 @@ Konwerter jednostek to prosta aplikacja umożliwiająca przeliczanie podstawowyc
 
 **Funkcje**
 Program umożliwia konwersję jednostek:
-- wagi (kilogram, gram, miligram tona, funt)
+- wagi (kilogram, gram, miligram, tona, funt)
 - długości (kilometr, metr, centymetr, mila, stopa)
 - konwersję temperatury (Celsjusz, Fahrenheit, Kelvin)
 
