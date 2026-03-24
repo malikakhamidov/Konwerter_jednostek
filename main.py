@@ -62,3 +62,93 @@ if change == 1:
         print("{} mile is equal to {} KM".format(length_value, length_value * 1.609))
     else:
         print("Wpisz wartość od 1 do 10.")
+# ==== 2 (Waga) ====
+elif change == 2:
+    print("\n>>> Konwersja masy")
+    print("")
+    mass_dict = \
+        {
+            1: "Gram na Kilogram",
+            2: "Kilogram na Gram",
+            3: "Kilogram na Tona",
+            4: "Tona na Kilogram",
+            5: "Miligram na Kilogram",
+            6: "Kilogram na Miligram",
+            7: "Miligram na Gram",
+            8: "Gram na Miligram",
+            9: "Kilogram na Funt (lb)",
+            10: "Funt (lb) na Kilogram",
+        }
+
+    # ==== wartość do konwersji ====
+    print("==========================")
+    mass_value = float(input("- Wpisz wartość do konwersji: "))
+    for keys, values in mass_dict.items():
+        print("{:2}. {}".format(keys, values))
+    mass_convert = int(input("\nWybierz jednostki, z których i na jakie chcesz konwertować. Wpisz wartość od 1 do 10: "))
+
+    # ==== konwersja ====
+    if mass_convert == 1:
+        print("{} g to {} Kg".format(mass_value, mass_value / 1000))
+    elif mass_convert == 2:
+        print("{} Kg to {} g".format(mass_value, mass_value * 1000))
+    elif mass_convert == 3:
+        print("{} kg to {} T".format(mass_value, mass_value / 1000))
+    elif mass_convert == 4:
+        print("{} T to {} kg".format(mass_value, mass_value * 1000))
+    elif mass_convert == 5:
+        print("{} mg to {} kg".format(mass_value, mass_value / 1000000))
+    elif mass_convert == 6:
+        print("{} Kg to {} mg".format(mass_value, mass_value * 1000000))
+    elif mass_convert == 7:
+        print("{} mg to {} g".format(mass_value, mass_value / 1000))
+    elif mass_convert == 8:
+        print("{} g to {} mg".format(mass_value, mass_value * 1000))
+    elif mass_convert == 9:
+        print("{} Kg to {} lb".format(mass_value, mass_value * 2.20462))
+    elif mass_convert == 10:
+        print("{} lb to {} kg".format(mass_value, mass_value / 2.20462))
+    else:
+        print("Wpisz wartość od 1 do 10.")
+
+# ==== 3 (Temperatura) ====
+elif change == 3:
+    print("\n>>> Konwersja temperatury")
+    print("")
+    Temp_dict = \
+        {
+            1: "Celsiusz na Fahrenheit",
+            2: "Celsiusz na Kelvin",
+            3: "Fahrenheit na Celsiusz",
+            4: "Fahrenheit na Kelvin",
+            5: "Kelvin na Celsiusz",
+            6: "Kelvin na Fahrenheit"
+        }
+
+    # ==== wartość do konwersji ====
+    print("==========================")
+    Temp_value = float(input("- Wpisz wartość do konwersji: "))
+    for keys, values in Temp_dict.items():
+        print("{:2}. {}".format(keys, values))
+    Temp_convert = int(input("\nWhich conversion you want to do from 1 to 6: "))
+
+    # ==== konwersja ====
+    if Temp_convert == 1:
+        print("{} C to {} F".format(Temp_value, (Temp_value * 9.5) + 32))
+    elif Temp_convert == 2:
+        print("{} C to {} K".format(Temp_value, Temp_value + 273.15))
+    elif Temp_convert == 3:
+        print("{} F to {} C".format(Temp_value, (Temp_value - 32) * 5.9))
+    elif Temp_convert == 4:
+        print("{} C to {} K".format(Temp_value, (Temp_value - 32) * 5.9 + 273.15))
+    elif Temp_convert == 5:
+        print("{} K to {} C".format(Temp_value, Temp_value - 273.15))
+    elif Temp_convert == 6:
+        print("{} K to {} F".format(Temp_value, (Temp_value - 273.15) * 9.5 + 32))
+    else:
+        print("Wpisz wartość od 1 do 10.")
+
+
+elif change == 4:
+    print("\n>>> Wyjście z programu")
+    exit()
