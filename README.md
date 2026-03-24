@@ -9,14 +9,14 @@ Konwerter jednostek to prosta aplikacja umożliwiająca przeliczanie podstawowyc
 
 **Funkcje**
 Program umożliwia konwersję jednostek:
-- wagi (kilogramy, gramy, funty)
-- długości (kilometry, metry, centymetry, mile)
-- konwersję temperatury (Celsjusz, Fahrenheit)
+- wagi (kilogram, gram, miligram tona, funt)
+- długości (kilometr, metr, centymetr, mila, stopa)
+- konwersję temperatury (Celsjusz, Fahrenheit, Kelvin)
 
 **Jak uruchomić program**
 1. Pobierz pliki projektu
-2. Uruchom plik główny programu
-3. Wybierz kategorię jednostek
+2. Uruchom plik main.py
+3. Wybierz kategorię konwersji
 4. Podaj wartość do konwersji
 5. Wybierz jednostkę, na którą ma być przeliczona wartość
 6. Odczytaj wynik
