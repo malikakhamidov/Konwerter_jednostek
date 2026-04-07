@@ -1,3 +1,5 @@
+![CI](https://github.com/TWOJ_LOGIN/unit_converter/actions/workflows/ci.yml/badge.svg)
+
 # Konwerter jednostek
 
 Konsolowy konwerter jednostek napisany w Pythonie.
