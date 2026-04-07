@@ -1,4 +1,4 @@
-![CI](https://github.com/TWOJ_LOGIN/unit_converter/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/malikakhamidov/Konwerter_jednostek/actions/workflows/ci.yml/badge.svg)](https://github.com/malikakhamidov/Konwerter_jednostek/actions/workflows/ci.yml)
 
 # Konwerter jednostek
 
