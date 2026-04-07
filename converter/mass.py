@@ -1,10 +1,38 @@
-def g_to_kg(v):  return v / 1000
-def kg_to_g(v):  return v * 1000
-def kg_to_t(v):  return v / 1000
-def t_to_kg(v):  return v * 1000
-def mg_to_kg(v): return v / 1_000_000
-def kg_to_mg(v): return v * 1_000_000
-def mg_to_g(v):  return v / 1000
-def g_to_mg(v):  return v * 1000
-def kg_to_lb(v): return v * 2.20462
-def lb_to_kg(v): return v / 2.20462
+def g_to_kg(v):
+    return v / 1000
+
+
+def kg_to_g(v):
+    return v * 1000
+
+
+def kg_to_t(v):
+    return v / 1000
+
+
+def t_to_kg(v):
+    return v * 1000
+
+
+def mg_to_kg(v):
+    return v / 1_000_000
+
+
+def kg_to_mg(v):
+    return v * 1_000_000
+
+
+def mg_to_g(v):
+    return v / 1000
+
+
+def g_to_mg(v):
+    return v * 1000
+
+
+def kg_to_lb(v):
+    return v * 2.20462
+
+
+def lb_to_kg(v):
+    return v / 2.20462

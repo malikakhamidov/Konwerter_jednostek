@@ -1,10 +1,38 @@
-def cm_to_m(v):     return v / 100
-def m_to_cm(v):     return v * 100
-def cm_to_inch(v):  return v / 2.54
-def inch_to_cm(v):  return v * 2.54
-def cm_to_km(v):    return v / 100000
-def km_to_cm(v):    return v * 100000
-def cm_to_feet(v):  return v / 30.48
-def feet_to_cm(v):  return v * 30.48
-def km_to_mile(v):  return v / 1.609
-def mile_to_km(v):  return v * 1.609
+def cm_to_m(v):
+    return v / 100
+
+
+def m_to_cm(v):
+    return v * 100
+
+
+def cm_to_inch(v):
+    return v / 2.54
+
+
+def inch_to_cm(v):
+    return v * 2.54
+
+
+def cm_to_km(v):
+    return v / 100000
+
+
+def km_to_cm(v):
+    return v * 100000
+
+
+def cm_to_feet(v):
+    return v / 30.48
+
+
+def feet_to_cm(v):
+    return v * 30.48
+
+
+def km_to_mile(v):
+    return v / 1.609
+
+
+def mile_to_km(v):
+    return v * 1.609
