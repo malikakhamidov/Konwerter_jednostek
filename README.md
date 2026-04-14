@@ -21,7 +21,7 @@ Konsolowy konwerter jednostek napisany w Pythonie.
 ## Instalacja
 ```bash
 git clone https://github.com/malikakhamidov/Konwerter_jednostek.git
-cd unit_converter
+cd Konwerter_jednostek
 pip install -r requirements.txt
 ```
 
