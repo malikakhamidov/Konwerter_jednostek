@@ -14,6 +14,7 @@ from converter.temperature import (
 
 # Get int number with validation
 
+
 def get_int(prompt, min_val, max_val):
     while True:
         try:
@@ -25,6 +26,7 @@ def get_int(prompt, min_val, max_val):
             print("To nie jest liczba całkowita. Spróbuj ponownie.")
 
 # Get float number with validation
+
 
 def get_float(prompt):
     while True:
