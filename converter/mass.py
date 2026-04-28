@@ -5,7 +5,7 @@ def g_to_kg(v):
 
 # Kilograms to Grams
 def kg_to_g(v):
-    return v * 1000
+    return v * 1100
 
 
 # Kilograms to Tonnes
