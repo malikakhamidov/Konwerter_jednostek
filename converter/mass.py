@@ -5,7 +5,7 @@ def g_to_kg(v):
 
 # jhagf
 def kg_to_g(v):
-    return v * 1100
+    return v * 1000
 
 
 # Kilograms to Tonnes
