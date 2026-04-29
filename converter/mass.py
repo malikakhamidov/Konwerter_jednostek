@@ -3,7 +3,7 @@ def g_to_kg(v):
     return v / 1000
 
 
-#jhagf
+# jhagf
 def kg_to_g(v):
     return v * 1100
 
