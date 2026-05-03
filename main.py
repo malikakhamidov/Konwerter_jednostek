@@ -12,9 +12,10 @@ from converter.temperature import (
     c_to_f, c_to_k, f_to_c, f_to_k, k_to_c, k_to_f
 )
 
+# Get int number with validation
+
 
 def get_int(prompt, min_val, max_val):
-    """Pyta o liczbę całkowitą dopóki użytkownik nie poda poprawnej."""
     while True:
         try:
             val = int(input(prompt))
@@ -24,9 +25,10 @@ def get_int(prompt, min_val, max_val):
         except ValueError:
             print("To nie jest liczba całkowita. Spróbuj ponownie.")
 
+# Get float number with validation
+
 
 def get_float(prompt):
-    """Pyta o liczbę zmiennoprzecinkową dopóki użytkownik nie poda poprawnej."""
     while True:
         try:
             return float(input(prompt))
